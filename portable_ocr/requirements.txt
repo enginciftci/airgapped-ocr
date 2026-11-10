@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+torchvision==0.21.0+cpu
+docling==2.140.0
+docling-core==2.101.1
+docling-ibm-models==4.0.3
+docling-parse==7.22.3
+rapidocr-onnxruntime==1.4.4
+onnxruntime==1.31.0
+opencv-python-headless==5.0.0.93
+pymupdf==1.28.2
+numpy==2.4.6
+pillow==12.3.0

@@ -1,0 +1,23 @@
+# Large portable binaries & offline model weights (rebuilt via scripts/build_portable.ps1)
+/portable_ocr/runtime/
+/portable_ocr/models/
+
+# Local input/output documents (keep folder placeholders only)
+/portable_ocr/input/*
+!/portable_ocr/input/.gitkeep
+/portable_ocr/output/*
+!/portable_ocr/output/.gitkeep
+/output/
+
+# Python cache & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.tmp
+.env
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
